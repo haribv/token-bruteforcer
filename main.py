@@ -10,7 +10,7 @@ def token_bruteforcer():
         print('')
         uuid = str(input('Used ID to bruteforce: '))
         if uuid == ''.strip():
-            input('UUID cannot be empty, press enter to return ')
+            input('empty, press enter to return ')
             token_bruteforcer()
 
         first_half = base64.b64encode(uuid.encode('utf-8')).decode().rstrip('b"')
