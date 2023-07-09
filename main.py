@@ -5,9 +5,6 @@ def token_bruteforcer():
     try:
         clear()
 
-
-        print('by haribv#0001')
-        print('')
         uuid = str(input('Used ID to bruteforce: '))
         if uuid == ''.strip():
             input('empty, press enter to return ')
